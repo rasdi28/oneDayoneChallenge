@@ -1,16 +1,10 @@
 let arr1 = ["a", "a", "c"];
-let arr2 = ["a", "x", "b"];
+let arr2 = ["a", "a", "c"];
+let arrayBaru = [];
 
-function compare(arr1, arr2) {
-    const array = [];
-
-    arr1.map((item, index) => {
-      if (item == arr2[index]) {
-        array.push(`jawaban benar maka cetak 1`);
-      } else {
-        array.push(`jawaban salah maka cetak 0`);
-      }
-    });
-    return array;
-    console.log(arr1);
-  }
+if( arr1==arr2){
+    var map1 = arrayBaru.push("hellow");
+    console.log(arrayBaru);   
+}else{
+    console.log("nilai beda");
+}
