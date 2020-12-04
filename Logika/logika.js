@@ -1,11 +1,23 @@
-let x = ["a","b","c"];
-let y = ["a","c","d"];
-let z = [];
+array1 = ["a","a","c"];
+array2 = ["a","b","c"];
 
-if (x==y){
-    z = z.push(4);
-}else{
-    z = z.push(1);
+function checkExam(array1, array2){
+    var nilai = 0;
+    for (var i=0; i < array1.length; i++){
+        if(array2[i]===""){
+            nilai += 0
+        }else {
+            if(array1[i] === array2[i]){
+                nilai += 4
+            }else if (array1[i] !== array2[i]){
+                nilai -=1
+
+            }    
+        }
+         
+    }
+    return (nilai <0) ? 0 : nilai;
+    
+    
 }
 
-console.log(z);
