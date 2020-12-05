@@ -1,6 +1,7 @@
 array1 = ["a","a","c"];
 array2 = ["a","b","c"];
 
+nilai = checkExam(array1,array2);
 function checkExam(array1, array2){
     var nilai = 0;
     for (var i=0; i < array1.length; i++){
@@ -18,6 +19,5 @@ function checkExam(array1, array2){
     }
     return (nilai <0) ? 0 : nilai;
     
-    
 }
-
+console.log(nilai);
