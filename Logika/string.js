@@ -1,14 +1,15 @@
 function tengah(str) {
-    var position, length;
+    var posisi, panjang;
     if ((str.length % 2) == 0) {
-      position = str.length / 2 - 1;
-      length = 2;
+      posisi = str.length / 2 - 1;
+      panjang = 2;
     } else {
-      position = (str.length - 1) / 2;
-      length = 1;
+      posisi = (str.length - 1) / 2;
+      panjang = 1;
     }
     
-    return str.substring(position, position + length);
+    return str.substring(posisi, posisi + panjang);
   }
   
-  console.log(tengah("hello"));
+  console.log(tengah("ABCDEF"));
+  
