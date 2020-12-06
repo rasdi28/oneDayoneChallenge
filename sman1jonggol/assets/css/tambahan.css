@@ -5,8 +5,29 @@
 
 #section{
     margin-top: -70px;
+    font-size: 20;
+    text-align: justify;
+    margin-right: 20px;
+    
       
 }
 .container{
     background-color: #f8f9fa;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container iframe{
+    left:0;
+    top:0;
+    position:absolute;
+}
+
+#footer{
+    margin-top: 100px;
 }
