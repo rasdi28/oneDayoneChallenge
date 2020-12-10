@@ -31,3 +31,26 @@
 #footer{
     margin-top: 100px;
 }
+
+.card {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+img.card-img-top{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+
+}
+
+h5.card-title{
+    text-align: center;
+}
+
+p.card-text{
+    text-align: center;
+}
