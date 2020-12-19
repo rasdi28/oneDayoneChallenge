@@ -1,11 +1,13 @@
 body {
     background-color: #2166e6;
     opacity: 0.9;
+    background-image: url(../img/hero-a.svg);
 
 }
 img {
     height: 600px;
     float: right;
+    position: relative;
 }
 h1 {
     color: white;
@@ -14,6 +16,7 @@ h1 {
 }
 .navbar{
     float: right;
+    color: yellow;
 
 }
 
@@ -24,6 +27,9 @@ ul {
     overflow: hidden;
    
 
+}
+.header{
+    background-color: yellow;
 }
 
 li {
@@ -41,6 +47,20 @@ li a {
 
 }
 
-li a:hover {
-  
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+}
+.dropdown-content a {
+    color : black;
+    padding : 12 px 16px;
+    trxt-decoration : none;
+    display: block;    
 }
